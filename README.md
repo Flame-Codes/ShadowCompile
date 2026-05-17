@@ -1,15 +1,14 @@
-
 <div align="center">
 
 # ⚡ ShadowCompile
 
 ### Lightweight Python Bytecode Compiler & Obfuscation Utility
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=760&lines=Python+Bytecode+Generator;Randomized+Output+Filenames;Lightweight+Python+Obfuscation+Tool;Raw+PYC+Bytecode+Exporter" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=850&lines=Python+Bytecode+Generator;Randomized+Output+Filenames;Lightweight+Python+Obfuscation+Tool;Raw+PYC+Bytecode+Exporter" alt="Typing SVG" />
 
 <br>
 
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.13+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-111827?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-16A34A?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-00C853?style=for-the-badge)
@@ -20,11 +19,11 @@
 
 ## ✨ About
 
-**ShadowCompile** is a lightweight Python bytecode compiler and obfuscation utility that converts `.py` scripts into raw compiled bytecode with randomized filenames.
+**ShadowCompile** is a lightweight Python bytecode compiler and obfuscation utility designed for developers who want to convert `.py` scripts into raw compiled bytecode with randomized filenames.
 
-Unlike the default Python compilation workflow, which stores `.pyc` files inside `__pycache__`, ShadowCompile extracts the compiled bytecode and exports it as a standalone randomized file.
+Unlike the default Python compilation workflow, which stores `.pyc` files inside `__pycache__`, ShadowCompile extracts the compiled bytecode and exports it as standalone randomized files.
 
-> ⚠️ **Note:** ShadowCompile is designed for learning, packaging experiments, and lightweight code obscurity. It is not strong protection against reverse engineering.
+> ⚠️ ShadowCompile is intended for educational purposes, packaging experiments, and lightweight code obscurity. It is not strong protection against reverse engineering.
 
 ---
 
@@ -34,14 +33,14 @@ Unlike the default Python compilation workflow, which stores `.pyc` files inside
 - Generate randomized Python-like output filenames
 - Export standalone bytecode files
 - Automatic `__pycache__` cleanup
-- No external dependencies
+- Lightweight and dependency-free
 - Fast command-line workflow
 - Pure Python implementation
-- Works on Windows, Linux, and macOS
+- Cross-platform support
 
 ---
 
-## 📦 Example Output Names
+## 📦 Example Output
 
 ```text
 core_sys_482.py
@@ -57,20 +56,22 @@ cache_58392.py
 
 flowchart TD
     A[Input Python File] --> B[Compile to PYC]
-    B --> C[Read Raw Bytecode]
+    B --> C[Extract Raw Bytecode]
     C --> D[Generate Random Filename]
     D --> E[Export Standalone File]
-    E --> F[Clean Temporary Cache]
+    E --> F[Cleanup Temporary Cache]
 
 
 ---
 
 📥 Installation
 
+Clone the repository:
+
 git clone https://github.com/YOUR_USERNAME/shadowcompile.git
 cd shadowcompile
 
-No external packages are required.
+No external dependencies are required.
 
 
 ---
@@ -109,9 +110,9 @@ Lightweight Python obfuscation
 
 Python source hiding experiments
 
-Python bytecode learning
-
 Python tooling research
+
+Educational bytecode learning
 
 
 
@@ -129,7 +130,16 @@ shadowcompile/
 
 📋 Requirements
 
-Python 3.x
+Python 3.13 or newer
+
+
+Supported Platforms
+
+Windows
+
+Linux
+
+macOS
 
 
 
@@ -152,9 +162,18 @@ python-packaging
 
 ⚠️ Disclaimer
 
-ShadowCompile does not encrypt Python code and does not provide strong security against reverse engineering.
+ShadowCompile does not encrypt Python code and does not provide strong protection against reverse engineering.
 
-It is intended for educational use, bytecode experiments, and lightweight script obscurity only.
+This project is intended for:
+
+Educational purposes
+
+Python bytecode learning
+
+Experimental workflows
+
+Lightweight script obscurity
+
 
 
 ---
@@ -175,9 +194,6 @@ This project is licensed under the MIT License.
 
 ---
 
-<div align="center">💻 Developed with Python
+💻 Developed with Python 
 
 ⭐ Star this repository if you found it useful.
-
-</div>
-```
