@@ -68,7 +68,7 @@ flowchart TD
 
 Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/shadowcompile.git
+git clone https://github.com/Flame-Codes/shadowcompile.git
 cd shadowcompile
 
 No external dependencies are required.
